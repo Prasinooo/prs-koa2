@@ -9,19 +9,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "debug": "^4.1.1",
-    "koa": "^2.7.0",
-    "koa-bodyparser": "^4.2.1",
+    "debug": "^4.2.0",
+    "dot-prop": ">=4.2.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
     "koa-convert": "^1.2.0",
     "koa-json": "^2.0.2",
-    "koa-logger": "^3.2.0",
+    "koa-logger": "^3.2.1",
     "koa-onerror": "^4.1.0",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
-    "koa-views": "^6.2.0",
+    "koa-views": "^6.3.1",
+    "lodash": ">=4.17.19",
+    "minimist": ">=0.2.1",
     "pug": "^2.0.3"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.4"
   }
 }
